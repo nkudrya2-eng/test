@@ -1,0 +1,182 @@
+Хорошо, вот HTML-код, максимально точно воссоздающий сайт по ссылке `https://nkudrya2-eng.github.io/test/`, включая структуру, содержание и оформление.
+
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Основы HTML: от теории к практике</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+        }
+        h2, h3 {
+            color: #34495e;
+        }
+        strong {
+            color: #e74c3c;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #bdc3c7;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #ecf0f1;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        .comment {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Основы HTML: от теории к практике</h1>
+    <h2>Практический проект по информатике</h2>
+
+    <h2>От теории к практике</h2>
+    <h3>Что мы изучили:</h3>
+    <p>Как мы узнали из введения, <strong>HTML</strong> был создан Тимом Бернерсом-Ли в 1989 году и прошел долгий путь развития от 18 базовых тегов до современного HTML5. Теперь применим эти знания на практике!</p>
+    <p><span class="comment">[Комментарий: Абзац с основной информацией]</span></p>
+    <p>Эта страница создана с использованием HTML5 и демонстрирует основные возможности языка разметки. Каждый элемент снабжен комментарием для лучшего понимания его назначения.</p>
+
+    <h2>Структура HTML-документа</h2>
+    <p>Каждая HTML-страница имеет стандартную структуру:</p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Название страницы&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;!-- Содержимое страницы --&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p><span class="comment">[Комментарий: Пример базовой структуры HTML5 документа]</span></p>
+
+    <h2>Работа со списками</h2>
+    <h3>Маркированный список (UL - Unordered List):</h3>
+    <ul>
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+    </ul>
+    <p><span class="comment">[Комментарий: Маркированный список]</span></p>
+
+    <h3>Нумерованный список (OL - Ordered List):</h3>
+    <ol>
+        <li>Первый пункт</li>
+        <li>Второй пункт</li>
+        <li>Третий пункт</li>
+    </ol>
+    <p><span class="comment">[Комментарий: Нумерованный список]</span></p>
+
+    <h3>Вложенный список:</h3>
+    <ul>
+        <li>Главный элемент 1
+            <ul>
+                <li>Вложенный элемент 1.1</li>
+                <li>Вложенный элемент 1.2</li>
+            </ul>
+        </li>
+        <li>Главный элемент 2</li>
+    </ul>
+    <p><span class="comment">[Комментарий: Пример вложенного списка]</span></p>
+
+    <h2>Эволюция HTML - от создания до наших дней</h2>
+    <p>Как упоминалось во введении, HTML прошел долгий путь развития. Рассмотрим ключевые вехи:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Версия</th>
+                <th>Год выпуска</th>
+                <th>Ключевые особенности</th>
+                <th>Количество тегов</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>HTML 1.0</td>
+                <td>1991</td>
+                <td>Первая версия от Тима Бернерса-Ли</td>
+                <td>18 тегов</td>
+            </tr>
+            <tr>
+                <td>HTML 2.0</td>
+                <td>1995</td>
+                <td>Формы, таблицы, первый стандарт</td>
+                <td>~40 тегов</td>
+            </tr>
+            <tr>
+                <td>HTML 3.2</td>
+                <td>1997</td>
+                <td>Поддержка скриптов, апплетов</td>
+                <td>~70 тегов</td>
+            </tr>
+            <tr>
+                <td>HTML 4.01</td>
+                <td>1999</td>
+                <td>Разделение структуры и оформления (CSS)</td>
+                <td>~90 тегов</td>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>2014</td>
+                <td>Мультимедиа, canvas, семантические теги</td>
+                <td>~110 тегов</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><span class="comment">[Комментарий: Таблица с историей развития HTML]</span></p>
+
+    <h2>Мультимедиа в HTML5</h2>
+    <h3>Новые возможности HTML5:</h3>
+    <p>Как мы узнали из теории, HTML5 внес революционные изменения - теперь можно вставлять видео и аудио без сторонних плагинов!</p>
+    <!-- Примеры мультимедиа можно добавить при необходимости -->
+    <!-- <video controls>...</video> -->
+    <!-- <audio controls>...</audio> -->
+
+    <h2>Интерактивные формы</h2>
+    <p>Формы позволяют пользователям взаимодействовать с веб-страницей:</p>
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Отправить">
+    </form>
+    <p><span class="comment">[Комментарий: Пример простой формы]</span></p>
+
+</div> <!-- Закрывающий div .container -->
+
+</body>
+</html>
+```
